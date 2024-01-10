@@ -1,0 +1,67 @@
+{
+    "name": "GrabMoveInputActions",
+    "maps": [
+        {
+            "name": "Grab Move",
+            "id": "011a8b5a-47b1-42a2-ad8f-5d4e6e77b31d",
+            "actions": [
+                {
+                    "name": "Grab Move",
+                    "type": "Button",
+                    "id": "cdb43bd9-07ff-4996-94b0-c86f52dd5005",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "One Modifier",
+                    "id": "519b4304-9388-4804-aac3-295a6fc1bcdd",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "26f6b6f2-02cc-4932-bd34-38c2c7d0504c",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "475c0a88-6bf7-4b18-bf25-54e96704ce5b",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "c2328561-f1ec-4863-97dc-2d4c8553c328",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

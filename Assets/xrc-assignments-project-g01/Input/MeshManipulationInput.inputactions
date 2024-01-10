@@ -1,0 +1,34 @@
+{
+    "name": "MeshManipulationInput",
+    "maps": [
+        {
+            "name": "Mesh Manipulation",
+            "id": "ae17a9dd-ee90-4f8c-9577-d9c9f87f09eb",
+            "actions": [
+                {
+                    "name": "Mesh Manipulation",
+                    "type": "Button",
+                    "id": "885bb023-8e0a-431a-ac07-6f88012cfdd8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c0153849-90c6-4e5b-a29b-5456c6deb1f2",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mesh Manipulation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

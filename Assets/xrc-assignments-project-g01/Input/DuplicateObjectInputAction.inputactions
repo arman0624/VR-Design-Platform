@@ -1,0 +1,34 @@
+{
+    "name": "DuplicateObjectInputAction",
+    "maps": [
+        {
+            "name": "Duplicate Object",
+            "id": "8534e5ca-53a8-491a-9137-59e71b7c2cfd",
+            "actions": [
+                {
+                    "name": "Duplicate Object",
+                    "type": "Button",
+                    "id": "dff5bc09-1774-4ea7-b263-932c4cc2a382",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cfd9db4b-cd54-47f8-841b-e65b74aa6e93",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Duplicate Object",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

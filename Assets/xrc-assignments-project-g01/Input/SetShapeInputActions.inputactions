@@ -1,0 +1,34 @@
+{
+    "name": "SetShapeInputActions",
+    "maps": [
+        {
+            "name": "SetShape",
+            "id": "c891e05f-2502-4bea-848d-5cc2ab78b3c7",
+            "actions": [
+                {
+                    "name": "SetShape",
+                    "type": "Button",
+                    "id": "2062d353-2451-4e9e-b5fc-6457eff17882",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "22e7c890-5994-40af-8ea0-2ea1a5fbd474",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SetShape",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,34 @@
+{
+    "name": "createObjectInputAsset",
+    "maps": [
+        {
+            "name": "createObject",
+            "id": "89abd1bc-cc4d-41a4-96ff-38f1fc02cb8b",
+            "actions": [
+                {
+                    "name": "createObject",
+                    "type": "Button",
+                    "id": "ab10c859-fc45-43e1-ae20-1da28a015cba",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "94c3dfe2-e1e4-4638-b786-d6db9995b2b7",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "createObject",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

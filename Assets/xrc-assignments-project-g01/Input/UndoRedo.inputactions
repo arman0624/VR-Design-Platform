@@ -1,0 +1,54 @@
+{
+    "name": "UndoRedo",
+    "maps": [
+        {
+            "name": "UndoRedo",
+            "id": "a6d02a3c-d436-4aae-b4ab-bdeeb7be278d",
+            "actions": [
+                {
+                    "name": "Undo",
+                    "type": "Button",
+                    "id": "e9da9356-bc8d-430c-91c7-0905dcf40357",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Redo",
+                    "type": "Button",
+                    "id": "3012dbdc-cd00-4f11-adbc-01bcc35bd247",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "887e187b-e5b1-4a26-a8b6-a587ec40e9dc",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Undo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ab916dd-1bd1-4cf4-90f6-8759f7b3ab62",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Redo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

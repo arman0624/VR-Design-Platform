@@ -1,0 +1,54 @@
+{
+    "name": "ColorObjectInput",
+    "maps": [
+        {
+            "name": "Color Object",
+            "id": "6f407794-547e-41e3-81b8-9354bfaea435",
+            "actions": [
+                {
+                    "name": "Color Object",
+                    "type": "Button",
+                    "id": "aeec9471-ca66-444a-af39-0f113ee2053e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Confirm Color Object",
+                    "type": "Button",
+                    "id": "7eb69f13-8989-4786-a572-a55d650206d4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7890d15c-9339-4d4c-9d1f-87e73884621d",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Color Object",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c43a1597-bd93-44b8-9bb4-3cfabec1cb3f",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Confirm Color Object",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
