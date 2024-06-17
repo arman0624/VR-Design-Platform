@@ -5,6 +5,7 @@ This is a VR application that can be loaded to vr headsets such as Meta Quest 2,
 Included Features:
 
 Grab move
+
 Move object
 Rotate object
 Scale object (per axis)
