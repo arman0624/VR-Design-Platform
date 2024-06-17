@@ -1,8 +1,8 @@
-## VR Design
+# VR Design
 
 This is a VR application that can be loaded to vr headsets such as Meta Quest 2, Apple Vision Pro, etc., and allows users to construct whatever they can imagine. Your surroundings are you canvas!
 
-# Included Features:
+## Included Features:
 
 Grab move
 
@@ -36,7 +36,7 @@ Help and documentation
 
 Custom Input Moderation/Manager
 
-# Helpful Resources
+## Helpful Resources
 
 App video URL:
 https://drive.google.com/file/d/1wEBKUG1ttIX-kL67ONfT9l7TTwl_I6ZT/view?usp=drive_link
